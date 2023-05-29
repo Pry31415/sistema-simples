@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+      
+}
+
+html, body{
+    height: 100%;
+   
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px;
+    padding: 0.625rem 1.9rem;
+    font-size: 1.25rem;  
+}
+
+
+
+.register{
+    max-width: 1680px;
+    margin: 50px 10px;
+    padding: 30px 40px; 
+    background-color: blue;
+    float: left;
+}
+
+
+h1{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.tb1{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.container{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+
+}
+
+.container > .radio{
+    width: 10px; 
+    height: 10px;
+    font-weight:none;
+
+}
+
+input{
+    width: 30%;
+    height: 25px;
+    line-height: 48px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+}
+ 
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+   
+   
+     
+}
+
+.container2 >label{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.btn{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: pink;
+}
