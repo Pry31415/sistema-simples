@@ -11,7 +11,7 @@ $query = "INSERT INTO tb_protocolo(descricao,data,prazo,demandante)VALUES('$desc
 
 //Receber os dados do formulário
 if (mysqli_query($con, $query)){
-    header("Location: index.php");
+    header("Location: index2.php");
 }else{
     echo "ERROR" . $query . mysqli_error($con);
 }

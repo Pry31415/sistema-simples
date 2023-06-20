@@ -15,7 +15,7 @@ echo $complemento = $_POST['complemento'];
 $sql = "INSERT INTO tb_contribuinte(nome,nascimento,cpf,sexo,cidade,bairro,numero,complemento)VALUES('$nome','$nascimento','$cpf','$sexo', '$cidade','$bairro','$numero', '$complemento')";
 
 if (mysqli_query($con, $sql)){
-    header("Location: index.php");
+    print "<script>alert('Cadastrado com sucesso.');</script>";
 }else{
     echo "ERROR" . $sql . mysqli_error($con);
 }

@@ -7,12 +7,12 @@
     <meta name="description" content="Cia do Gloss, veja nossos produtos">
     <title>Casdatro do Contribuinte</title>
     <!--Link CSS Style-->
-    <link rel="stylesheet" href="" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
 <header>
-    <h1>Gestão Sys<h1>
+    <h1>Gestão Sys <h1>
 </header>
 
 

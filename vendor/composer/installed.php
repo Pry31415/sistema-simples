@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '396bce3b5375b2b095f55d92e58fc2fa102e11e8',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '396bce3b5375b2b095f55d92e58fc2fa102e11e8',
+            'dev_requirement' => false,
+        ),
+        'spatie/db-dumper' => array(
+            'pretty_version' => '1.5.1',
+            'version' => '1.5.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../spatie/db-dumper',
+            'aliases' => array(),
+            'reference' => 'efdf41891a9dd4bb63fb6253044c9e51f34fff41',
+            'dev_requirement' => false,
+        ),
+        'symfony/process' => array(
+            'pretty_version' => 'v3.4.47',
+            'version' => '3.4.47.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/process',
+            'aliases' => array(),
+            'reference' => 'b8648cf1d5af12a44a51d07ef9bf980921f15fca',
+            'dev_requirement' => false,
+        ),
+    ),
+);

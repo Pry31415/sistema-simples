@@ -30,7 +30,6 @@ while($linha = mysqli_fetch_array($sql)){              //Enquanto "fatiar a linh
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cia do Gloss, veja nossos produtos">
     <title>Casdatro do Contribuinte</title>
     <!--Link CSS Style-->
     <link rel="stylesheet" href="  " type="text/css">
@@ -58,10 +57,10 @@ while($linha = mysqli_fetch_array($sql)){              //Enquanto "fatiar a linh
                     <!--<input type="text" name="sexo" maxlength="150" placeholder="F/M" class="required ">
                     <div class="input">-->
 			            <div>
-				            <input type="radio" name="sexo" value="Feminino"/><span> Feminino</span>
+				            <input type="radio" name="sexo" value="Feminino" <?php echo ($sexo == 'Feminino') ? 'checked' : '' ?> required/><span> Feminino</span>
 			            </div>
 			        <div>
-				        <input type="radio" name="sexo" value="Masculino"/><span> Masculino</span>	
+				        <input type="radio" name="sexo" value="Masculino" <?php echo ($sexo == 'Masculino') ? 'checked' : '' ?> required/><span> Masculino</span>	
 			        </div>
                 </div>
                 <div>

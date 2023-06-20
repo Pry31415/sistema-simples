@@ -18,7 +18,7 @@
     <form method="post" name="form_protocolo" action="receive_data_protocol.php">
             <legend>Protocolo</legend>
                     <label>Descrição<label>
-				    <textarea type="text" name="descricao" maxlength="250" placeholder="Demanda do contribuinte"></textarea>
+				    <textarea type="text" name="descricao" maxlength="250" placeholder="Demanda do contribuinte" required></textarea>
 		            <!--</div><input type="text" name="descricao" maxlength="2000" placeholder="Demanda do contribuinte" class="required datanasc"> -->
                 </div>
                 <div>

@@ -1,4 +1,5 @@
 <?php
+//conecxão com o banco de dados protocolo_db
 $server = "localhost";
 $db_user = "root";
 $passord = "";
